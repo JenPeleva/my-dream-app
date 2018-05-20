@@ -1,0 +1,17 @@
+.dropdown {
+    position: absolute;
+    border: 1px solid teal;
+    min-width: 200px;
+    background: #fff;
+    right: 0;
+}
+.-left .dropdown {
+    left: 0;
+    right: auto;
+}
+ul {
+    padding-left: 10px;
+}
+li {
+    list-style: none;
+}
