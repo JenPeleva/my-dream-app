@@ -122,7 +122,7 @@ export class MoveInViewportDirective implements AfterViewInit{
     //position left: 0 of viewport, relative to parent
     const offsetLeft = this.element.nativeElement.offsetLeft;
     const parentLeft = this.parentBoundaries.left;
-    this.element.nativeElement.style.left = -(parentLeft + parentLeft) + 'px';
+    this.element.nativeElement.style.left = -(offsetLeft + parentLeft) + 'px';
   }
 
   fallbackTop() {
